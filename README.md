@@ -1,5 +1,10 @@
 ## Dropwizard microservice template
 
+##### Stack
+```
+Java 8, Dropwizard, OkHttp, Junit, Wiremock
+```
+
 ##### Build
 ```
 ./gradlew clean test fatCapsule
@@ -18,6 +23,6 @@ http://localhost:7015/api/info
 http://localhost:7015/api/swagger
 ```
 
-#### Travis CI Status
+##### Travis CI Status
 
 [![Build Status](https://travis-ci.org/happysathya/dropwizard-microservice-template.svg?branch=master)](https://travis-ci.org/happysathya/dropwizard-microservice-template)
