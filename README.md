@@ -17,3 +17,7 @@ http://localhost:7115/metrics
 http://localhost:7015/api/info
 http://localhost:7015/api/swagger
 ```
+
+#### Travis CI Status
+
+[![Build Status](https://travis-ci.org/happysathya/dropwizard-microservice-template.svg?branch=master)](https://travis-ci.org/happysathya/dropwizard-microservice-template)
