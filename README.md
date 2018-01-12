@@ -1,4 +1,4 @@
-##Dropwizard microservice template
+## Dropwizard microservice template
 
 ##### Build
 ```
