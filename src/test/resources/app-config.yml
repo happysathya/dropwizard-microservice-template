@@ -1,0 +1,19 @@
+appName:  Information Service
+connectionUri:  https://httpbin.org/
+server:
+  rootPath: /api/*
+  applicationConnectors:
+    - type: http
+      port: 7015
+  adminConnectors:
+    - type: http
+      port: 7115
+  gzip:
+      enabled: false
+logging:
+  level:  WARN
+  loggers:
+    org.happysathya:  INFO
+swagger:
+  resourcePackage: org.happysathya
+

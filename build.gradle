@@ -26,6 +26,7 @@ repositories {
 dependencies {
     compile group: 'io.dropwizard', name: 'dropwizard-core', version: dropwizardVersion
     compile group: 'io.dropwizard.modules', name: 'dropwizard-java8', version: '0.9.0-1'
+    compile group: 'com.smoketurner', name: 'dropwizard-swagger', version: '1.0.0-1'
     compile 'com.squareup.okhttp3:okhttp:3.4.2'
     testCompile group: 'junit', name: 'junit-dep', version: '4.11'
     testCompile group: 'io.dropwizard', name: 'dropwizard-testing', version: dropwizardVersion
@@ -33,5 +34,5 @@ dependencies {
 }
 
 task fatCapsule(type: FatCapsule) {
-    applicationClass 'cci.Main'
+    applicationClass 'org.happysathya.Main'
 }
